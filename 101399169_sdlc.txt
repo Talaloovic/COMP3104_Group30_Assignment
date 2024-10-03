@@ -1,0 +1,1 @@
+The COMP 3104 DevOps course focuses on integrating development and operations to improve collaboration and productivity. Key topics include version control, continuous integration/continuous deployment (CI/CD), and automation. This course prepares students for modern software development practices, essential for success in the tech industry.
