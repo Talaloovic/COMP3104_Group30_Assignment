@@ -3,7 +3,7 @@ name: GitHub Actions Demo
 on:
   push:
     branches:
-      - '101399169-Talalovic'   # Trigger only when pushing to this branch
+      - '101399169-Talalovic'
 
 jobs:
   build:
@@ -17,11 +17,10 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '11'
-        distribution: 'adoptopenjdk'  # Add this line to specify the distribution
-    
+        distribution: 'adoptopenjdk'  # Update this line to 'adoptium'
 
     - name: Build with Maven
-      run: mvn clean install  # This will build and test your Java project
+      run: mvn clean install
 
     - name: Run Tests
-      run: mvn test  # Run the tests if you have any in the project
+      run: mvn test
