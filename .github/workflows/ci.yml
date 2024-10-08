@@ -3,7 +3,7 @@ name: GitHub Actions Demo
 on:
   push:
     branches:
-      - '101399169-Talalovic'
+      - '101399169-Talalovic'  # Trigger only when pushing to this branch
 
 jobs:
   build:
@@ -17,10 +17,10 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '11'
-        distribution: 'adoptopenjdk'  # Update this line to 'adoptium'
+        distribution: 'temurin'  # Use Temurin (Adoptium) distribution explicitly
 
     - name: Build with Maven
-      run: mvn clean install
+      run: mvn clean install  # This will build and test your Java project
 
     - name: Run Tests
-      run: mvn test
+      run: mvn test  # Run the tests if you have any in the project
