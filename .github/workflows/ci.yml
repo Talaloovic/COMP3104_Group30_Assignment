@@ -14,9 +14,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    # Step 2: Set up Java JDK 11 using Adoptium
+    # Step 2: Set up Java JDK 11 using Adoptium (Temurin)
     - name: Set up Java JDK 11
-      uses: adoptopenjdk/actions/setup-java@v2
+      uses: adoptium/setup-java@v2
       with:
         java-version: '11'
         distribution: 'temurin'  # Using 'temurin' from Adoptium distribution
