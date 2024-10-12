@@ -1,1 +1,1 @@
-The COMP 3104 DevOps course introduces students to collaboration between teams, they recieve hands-on experience working with modern DevOps tools and practices, making them well-prepared to work in a fast-paced software development environment.
+The COMP 3104 DevOps course introduces students to collaboration between development and operations teams, they recieve hands-on experience working with modern DevOps tools and practices, making them well-prepared to work in a fast-paced software development environment.
